@@ -8,6 +8,7 @@ import {
 	Notice,
 	Plugin,
 	TFolder,
+	future,
 	setIcon,
 	setTooltip,
 } from "obsidian";
