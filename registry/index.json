@@ -1,0 +1,6 @@
+{
+  "apiVersion": "aps/v1",
+  "kind": "PromptRegistry",
+  "count": 0,
+  "prompts": []
+}
