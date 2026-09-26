@@ -1,0 +1,17 @@
+{
+  "name": "Web4Hub Awesome AI Prompts",
+  "organization": "web4hub",
+  "license": "MIT",
+  "website": "https://github.com/web4hub/awesome-ai-prompts",
+  "ecosystem": "Aura Ecosystem",
+  "categories": [
+    "AI",
+    "LmLM",
+    "Prompt Engineering",
+    "Web4",
+    "Blockchain",
+    "Agents",
+    "Security",
+    "Research"
+  ]
+}
