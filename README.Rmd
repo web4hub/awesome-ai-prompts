@@ -1,13 +1,11 @@
 # Awesome AI Prompts [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
- 
+  
 The prompt engineering world has split into two camps:
 
 - **Camp 1 — Prompt templates**: collect system prompts, share copy-paste recipes, curate persona prompts. Useful, but limited.
 - **Camp 2 — Prompt as engineering**: compile LM programs (DSPy), test and regress prompts (promptfoo), control generation structurally (Guidance), optimize prompts automatically (TextGrad, GEPA). This is where the long-term value is.
 
-This repo covers both. The engineering camp gets more space.
-
----
+# This repo covers both. The engineering camp gets more space.
 
 ## Table of Contents
 
@@ -33,25 +31,23 @@ This repo covers both. The engineering camp gets more space.
   - [Game Development](#game-development)
   - [Translation](#translation)
   - [Legacy (2023 era)](#legacy-2023-era--kept-for-reference)
-- [🔬 Frameworks](#frameworks) — the engineering camp
+  - [🔬 Frameworks](#frameworks) — the engineering camp
   - [Prompt Programming](#prompt-programming)
   - [Automatic Prompt Optimization](#automatic-prompt-optimization)
   - [Eval & Testing](#eval--testing)
   - [Red Team & Security](#red-team--security)
   - [Low-Code & Workflow Platforms](#low-code--workflow-platforms)
-- [🕵️ System Prompt Leaks](#system-prompt-leaks) — learn from production
-- [🧠 Prompt Engineering](#prompt-engineering) — techniques & defense
-- [🔭 Context Engineering](#context-engineering)
-- [🤖 Agent Ecosystem](#agent-ecosystem) — MCP, Skills, Harness
-- [📖 Official Guides](#official-guides)
-- [📄 Papers](#papers) — Foundations, Optimization, Reasoning, RAG, Agents, Multi-Agent, Safety, Self-Improving Agents, Tool Use, Evaluation, Memory, Multimodal
-- [🛠 Tools & Libraries](#tools--libraries)
-
----
+  - [🕵️ System Prompt Leaks](#system-prompt-leaks) — learn from production
+ - [🧠 Prompt Engineering](#prompt-engineering)   — techniques & defense
+ - [🔭 Context Engineering](#context-engineering)
+ - [🤖 Agent Ecosystem](#agent-ecosystem) — MCP, Skills, Harness
+ - [📖 Official Guides](#official-guides)
+ - [📄 Papers](#papers) — Foundations, Optimization, Reasoning, RAG, Agents, Multi-Agent, Safety, Self-Improving Agents, Tool Use, Evaluation, Memory, Multimodal
+ - [🛠 Tools & Libraries](#tools--libraries)
 
 ## Prompts
 
-All prompts are open — click, copy, use directly.
+> All prompts are open — click, copy, use directly.
 
 ### Coding & Development
 
