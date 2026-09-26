@@ -1,5 +1,5 @@
 # Awesome AI Prompts [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
+ 
 The prompt engineering world has split into two camps:
 
 - **Camp 1 — Prompt templates**: collect system prompts, share copy-paste recipes, curate persona prompts. Useful, but limited.
