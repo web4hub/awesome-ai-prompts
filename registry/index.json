@@ -1,6 +1,37 @@
 {
   "apiVersion": "aps/v1",
   "kind": "PromptRegistry",
-  "count": 0,
-  "prompts": []
+  "count": 2,
+  "prompts": [
+    {
+      "id": "aps-promptcard-template-v1",
+      "name": "APS Prompt Card Template",
+      "version": "1.0.0",
+      "author": "Seriki Walter Yakub",
+      "ecosystem": "aps",
+      "target_engine": "generic",
+      "tags": [
+        "template",
+        "prompt-engineering",
+        "aps"
+      ],
+      "path": "prompts/promptcard.md",
+      "sha256": "5576e65e29644aede7f4fc107dbb3e3de7c85565f6ac2cec829843c2b2088eb4"
+    },
+    {
+      "id": "lmlm-code-gen-v1",
+      "name": "LMLM Multi-Language Code Generator",
+      "version": "1.0.0",
+      "author": "Seriki Walter Yakub",
+      "ecosystem": "aura-web4",
+      "target_engine": "lmlm",
+      "tags": [
+        "code-generation",
+        "multi-language",
+        "privacy-first"
+      ],
+      "path": "prompts/lmlm/code_generator.md",
+      "sha256": "41365506e226612af15b82385c1e1a9b7f79bce25294a3c3a17afcd407d84c9d"
+    }
+  ]
 }
