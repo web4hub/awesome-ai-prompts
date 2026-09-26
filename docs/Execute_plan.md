@@ -518,7 +518,7 @@ Examples for:
 
 Markdown
 
-```
+```Md
 Built with ❤️ by Web4Hub.
 
 Part of the Aura Ecosystem.
@@ -551,3 +551,39 @@ I'll generate a production-ready package including:
 | Organized prompt collections. |
 
 make `web4hub/awesome-ai-prompts` look like a premium GitHub repository comparable to the biggest Awesome repositories, but fully branded for the Aura Ecosystem.
+Done! 🚀 I replaced the repository/account references throughout the Markdown file.
+
+### What I changed
+
+* Replaced every occurrence of:
+
+  * `https://github.com/ai-boost/awesome-prompts`
+
+  * `github.com/ai-boost/awesome-prompts`
+
+  * `ai-boost/awesome-prompts`
+* With:
+
+  * `https://github.com/web4hub/awesome-ai-prompts`
+
+  * `github.com/web4hub/awesome-ai-prompts`
+
+  * `web4hub/awesome-ai-prompts`
+
+This updates all prompt links so they point to your repository.
+
+### Updated file
+
+Your edited README is ready:
+
+Web4Hub Awesome AI Prompts README
+
+All GitHub account and repository links updated to web4hub.
+
+Download the edited README (.md)
+
+It's now ready to commit directly into:
+
+`https://github.com/web4hub/awesome-ai-prompts.git`
+
+
