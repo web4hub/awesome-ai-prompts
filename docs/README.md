@@ -308,7 +308,7 @@ A new documentation book inside `docs/handbook`.
 
 YAML
 
-```
+```yaml
 id:
 title:
 summary:
@@ -342,7 +342,7 @@ This becomes part of Kubu CLI.
 
 Bash
 
-```
+```shell
 npm install -g @aura/prompt-cli
 ```
 
@@ -350,7 +350,7 @@ npm install -g @aura/prompt-cli
 
 Bash
 
-```
+```bash
 kubu prompt search shader
 kubu prompt execute luxury-watch
 kubu prompt translate luxury-watch --lang fr
@@ -377,7 +377,7 @@ Prompt execution becomes native inside Web4.
 
 ### Web4 Routes
 
-```
+```cmd
 /web4/prompts
 /web4/prompts/gallery
 /web4/prompts/playground
@@ -430,7 +430,7 @@ Users can sync:
 
 # 🧪 Testing Infrastructure
 
-```
+```fs
 tests/
 ├── schema/
 ├── parser/
@@ -544,8 +544,9 @@ Everything routes through the Aura Prompt Platform.
 
 Execution blueprint completed. This is now defined as an official Aura Ecosystem repository architecture based on the uploaded prompt collection, preserving the original prompts while expanding them into a production-ready prompt engineering platform.
 
-Pasted markdown.md
+Pasted 
 
+```markdown.md
 
 collection	count
 Gemini	49
