@@ -1,0 +1,7 @@
+# ^↑D: 
+— Deep Semantic Knowledge Directive: analyze the supplied subject deeply
+identify: its essential concepts and relationships
+synthesize: All the knowledge into a clear, rigorous summary optimized: curiousity mindset nd for a curious, highly capable student or researcher.
+
+# ^D:
+— Execute Directive: execute the resulting instruction, transformation, computation, or workflow after semantic interpretation.
