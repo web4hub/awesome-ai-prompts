@@ -6,23 +6,22 @@ from __future__ import annotations
 import ast
 import pathlib
 import re
-import sys
 from collections import defaultdict
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 PROMPT_ROOTS = [ROOT / "prompts", ROOT / "promptcards"]
 REQUIRED = ("id", "name", "version", "author", "ecosystem", "target_engine", "tags")
 SEMVER = re.compile(
-    r"^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)"
-    r"(?:-[0-9A-Za-z.-]+)?(?:\\+[0-9A-Za-z.-]+)?$"
+    r"^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)"
+    r"(?:-[0-9A-Za-z.-]+)?(?:\+[0-9A-Za-z.-]+)?$"
 )
 ID = re.compile(r"^[a-z0-9][a-z0-9._-]*$")
 
 
 def parse_frontmatter(text: str) -> dict[str, object]:
-    if not text.startswith("---\\n"):
+    if not text.startswith("---\n"):
         raise ValueError("missing YAML frontmatter")
-    end = text.find("\\n---", 4)
+    end = text.find("\n---", 4)
     if end == -1:
         raise ValueError("unterminated YAML frontmatter")
 
