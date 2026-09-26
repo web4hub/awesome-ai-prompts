@@ -311,3 +311,243 @@ This execution upgrades the repository into a production-grade Awesome repositor
 
 * ✅ All links rewritten to `https://github.com/web4hub/awesome-ai-prompts`
 
+Perfect. Let's turn `web4hub/awesome-ai-prompts` into a flagship Web4Hub × Aura Ecosystem repository instead of just changing links. 🔥
+
+# Rebrand Plan for `web4hub/awesome-ai-prompts`
+
+This will become an enterprise-quality GitHub README.
+
+## What I'll replace
+
+* All GitHub account references → `web4hub`.
+
+* All repository links → `https://github.com/web4hub/awesome-ai-prompts`.
+
+* Credits, contribution links, issue links, and badges updated to Web4Hub.
+
+* Remove references to the previous owner.
+
+## New README Features
+
+### Hero Banner (Animated SVG)
+
+![AgenHub – Marketplace for AI Agents | Join Early Waitlist](https://images.openai.com/static-rsc-4/P_HXYlSCUdsju0dyR51cIS7-z-bRNxHGU3_zq09JetU-CBoQVz4Um5GRJdX8ayiGQ34KY_mw4VCyBgnH_m9RruEuYwUAhWX6-mcujViZdZAgfYEQoZX5BcA93vQ7pwF4PEcUwHBAzzW09P9nnKiVcnATpbdh-Twk6WJOL0EKOMA?purpose=inline)
+
+![أكاديمية نبساي](https://images.openai.com/static-rsc-4/nF-VmpXB_CzWnsX5U0bCPWQ6prTsy5dX435W84HkRQsH7bbgdITKKPi22WFwG2Xy8ZG2UFpPoKRXpoO3fDmuot-KUzTmCqZQx9tWkmJp7Lbleaa00xFK66OqhrFxUk6K-Q_CxvH3fwYop9d-Rz_siPH0urkyz8I14ls797WM0y4?purpose=inline)
+
+![The Architecture of Artificial Superintelligence: Timelines, Takeover Mechanics, and Systemic Risk Scenarios | by Goran | Feb, 2026 | Medium](https://images.openai.com/static-rsc-4/_XL9odVilrMEmlHodUmh35StdnyOFvrPuyBDv5RzWm0LSK-P-IFS9qpzqojDgBjw6Cit6mXVFVYymQUVG5wp6ejHY2k4DIFx2kZbgv7ImCJxK3IHPa4VE9eM8Bkkagr8Mj-saXwj9pZWN-LfsfCvgZfsljDmhh_4QNI3AEaDi5c?purpose=inline)
+
+6
+
+A custom animated SVG banner named:
+
+```
+assets/banner/web4hub-ai-banner.svg
+```
+
+with glowing particles, moving gradients, AI nodes, Web4 branding, and dark/light support.
+
+### GitHub Badges
+
+AI Prompts
+
+Web4Hub
+
+Aura Ecosystem
+
+LLMs
+
+Agents
+
+README badges for stars, forks, license, contributors, and prompt collections.
+
+### Web4Hub Branding Section
+
+![Ai logo monogram design for tech chatbot virtual – Royalty-Free Vector | VectorStock](https://images.openai.com/static-rsc-4/mI2ij_iYQIKQddQyEW_xAp17qxtQFgDwFNbYNtjxXMmQ0A3BFOoCoTZ945O-jtpmrAqrfTXlOOusRxJPpx3fBADSXXN8hiNROU1u2xa4n_gz0ybQnP9nicKv7FVaqzfZYJkBP3luusuUxBWCWBL-8MQvw1JtVgK_d84ntjYFAF8?purpose=inline)
+
+![Global  template vector icon](https://images.openai.com/static-rsc-4/JkLyQOrHQI3BmiDHEyfbZCnlYWAMdnUJ5TrZ9N7UkXiy6sBS5jYaem3qCHV3XJ56T67pe0-eZJl-Wxb0WMie9BS-en20DdtQpdb0rCrOjzk77a78jKrcEKSyi9VuDvnMjZPM0Nerf8GveOlJTtwsaedU5aJFNWWTwhn-T3YR0Jnfj2vcEAy2bAP51vKnBKLx?purpose=inline)
+
+![Letter AI logo icon design template elements. EPS 10](https://images.openai.com/static-rsc-4/c6G2KJMU0bFOBITqq6vHNCEeJL7LTYUJoipY7TrzILmHeO01wdtUZi-MA5-sMQUkwEbLRynWjnDklew1psKP0-F5K6X7byC0dHrI-uecAGSnraBh1Ij0BnwWXFHukp0ufjCcfdFLybDL1vSFUYQZnUSK4KEFH4KoxFaiGgMw5b7tit2u4b91whTjqUgwaPVZ?purpose=inline)
+
+5
+
+Markdown
+
+```
+# Web4Hub Awesome AI Prompts
+
+The largest curated collection of AI prompts for developers, creators,
+researchers, blockchain builders, autonomous agents, and Web4 applications.
+
+Maintained by Web4Hub — part of the Aura Ecosystem.
+```
+
+### Repository Categories
+
+| Category                 | Includes                                                             |
+| ------------------------ | -------------------------------------------------------------------- |
+| 🤖 Large Language Models | GPT, Claude, Gemini, LMLM, NeomindAI, DeepSeek, Mistral, Qwen.       |
+| 🧠 AI Agents             | Coding agents, autonomous workflows, MCP prompts.                    |
+| 🌐 Web4 Development      | Prompt engineering for Web4 applications and decentralized AI.       |
+| ⛓️ Blockchain            | Solidity, Rust, Move, Cairo, CosmWasm prompts.                       |
+| 🎨 Creative AI           | Image, video, design, UI/UX prompts.                                 |
+| 📚 Research              | Scientific reasoning, education, APLCE compiler engineering prompts. |
+
+### Repository Preview
+
+![How to get started using GitHub | Windows Central](https://images.openai.com/static-rsc-4/yBZR-VEInCPwwO28E9D3814ekAkCA7ySA1C8q2pVV3e7xjlbN8zuzx6yrLq_9zrLCkEw36p0COwTnqG-HZ4emUnpS1QsxcDLw1bhsdtLbDHDJA-y3Aj4W0F583B67znK4CaHQ547OARMTJZuTVQWmTR6oifNSFxrgGzPkj9nwG0?purpose=inline)
+
+![SQLite re-implemented in Rust to achieve asynchronous I/O and other changes](https://images.openai.com/static-rsc-4/dn3_PAo87PK_mn5A7xtcP9aPWdsaWriBSSoouudqByToSAiO2y6L-oioBw4okywo_eT1tTJK7pHdoAQ6DID9Us8LaWhO7McinBqAaKbmKmRjyDqnOWgXt3frtcitnXZu7LrsoBvdJcDCNiw79qg9T6mR0L1qZm8BTxZSqKFOEzA?purpose=inline)
+
+![Creating Agentic Workflows | GitHub Agentic Workflows](https://images.openai.com/static-rsc-4/IWNt0WzOlNP56IR_GMs-OCPm5Laa6ZUji9_qKJH14zF_yKbA2ujKz6ydIzZXyxYHxwWpWtzJwSDso_VhuYF8-9f3Ud57S8wfAu1RoJBWKwusJ5oglw1JdQzblR92G4KJhG0K1anH14lBqJ9zb6wxNIBp_69hwbbPv9pUu3ZWk40?purpose=inline)
+
+5
+
+```
+awesome-ai-prompts/
+├── chatgpt/
+├── claude/
+├── gemini/
+├── lmlm/
+├── neomind/
+├── coding/
+├── blockchain/
+├── web4/
+├── research/
+├── image-generation/
+├── agents/
+├── security/
+└── prompts/
+```
+
+### AI Ecosystem Section
+
+| Model      | Purpose                               |
+| ---------- | ------------------------------------- |
+| GPT-5      | Reasoning + Coding.                   |
+| GPT-5 Mini | Lightweight AI assistant.             |
+| LMLM       | Local AI model for Web4Hub.           |
+| Neomind AI | Multimodal reasoning model.           |
+| KIBS       | Knowledge & Intelligence Base System. |
+| QUBUHUB AI | Developer AI workspace.               |
+
+### Beautiful Contribution Graph
+
+![My GitHub in 4 years 💙
+
+* [https://github.com/ln-dev7](https://github.com/ln-dev7) | Leonel N.]([https://images.openai.com/static-rsc-4/31zs2rdqt-bxxqK8U-MU0IhIuKnMAbfzfzZN-A1huoFceN7ZbMHxD2DcdxFCgA317f6yFwC7IWXjAKOFOUUxWoVIKu4Hvoza87P-fGF4wKr-kMrbi0P5-slXfAHw7rjuxlm7dHX4eV4lKGU2uPLuRq4FS1lF-S8YBDrnAMU5FBk?purpose=inline](https://images.openai.com/static-rsc-4/31zs2rdqt-bxxqK8U-MU0IhIuKnMAbfzfzZN-A1huoFceN7ZbMHxD2DcdxFCgA317f6yFwC7IWXjAKOFOUUxWoVIKu4Hvoza87P-fGF4wKr-kMrbi0P5-slXfAHw7rjuxlm7dHX4eV4lKGU2uPLuRq4FS1lF-S8YBDrnAMU5FBk?purpose=inline))
+
+![Master Git Branch Management: The Ultimate Guide for Solo Developers & Teams of Any Size | by Ayush Kejariwal | Medium](https://images.openai.com/static-rsc-4/IoLUXvVvXiVqcNrftVaMGPm99JhN52iGYEdoxuK5k6y4KWjMSS3UWIQtXSB_BRsgpHDqIKiLg6FBSAHJHQ4ojqoYuoNgIe09ggkp7vXF1vKUiMnLi0ZktEkraXmGSOQW8uo4isCcxfwTQR-ayeLpmrTy0neAwEsF_BrWr1jxW7o?purpose=inline)
+
+![Molecular Assemblers: Building Atom by Atom | by Anik Hassan | Medium](https://images.openai.com/static-rsc-4/nDp5WgcjevWqof-i6HCDeX26xqVJeLQWUDHTEhxspDsyJAPLHKP1bWInt80QdYfwIAhyrN6eatQyd5ME_moX8jOa8AOaPjfUaI7hVf6r6YzE13jE2hn2O3Nfm4E1r5UdjTXM43gLBZHw4pCrWI1LOXUwv31IIZ7z8ak3YFyM0cQ?purpose=inline)
+
+6
+
+Markdown
+
+```
+## Contributing
+
+We welcome prompt engineers, AI researchers, developers,
+and Web4 contributors.
+
+1. Fork
+2. Create prompt
+3. Commit
+4. Pull Request
+```
+
+### Web4Hub Links
+
+Markdown
+
+```
+## Aura Ecosystem
+
+- 🌐 Web4Hub
+- 🤖 LMLM
+- 🧠 Neomind AI
+- ⚡ KIBS
+- 📚 APLCE
+- ⛓️ Fadaka Blockchain
+- ☁️ QUBUHUB Cloud
+```
+
+All links point to the web4hub GitHub organization.
+
+### Prompt Showcase
+
+![How I stopped getting distracted while Claude Code is running
+AI coding assistants are amazing, but I've found it hard to stay in a flow state. I kick off a command, then go check my email or… | Evan King | 22 comments](https://images.openai.com/static-rsc-4/lToweLGXsbtVcCm7_HGOYvXaRmQssMpdsVSN7BvE7SKNpTkCt1mVowjimwUOb44DpMxR5Mv0UNg6hLr27GB7J_2-LPkupRQV2MBeqk-UYYqTO-t3di6l_OIhkdqXPsIMiozW3VezSDFY5S4Aq7936JFQUwlpAg5Z4Ky95J4OMgA?purpose=inline)
+
+![How Frontend Engineers Can Make AI Accessible: Building Intuitive Interfaces for AI-Powered Apps - DEV Community](https://images.openai.com/static-rsc-4/rUBiSK6yr0RbYomFmJBUVI8sO5oKKVJRwEPg5q9gc414xh2KHrEC7i6M9pq4V55VhTA3NyOcXNTJyASoqo-rPIyHjQD028uzshRM2KklKdN29R8SWvjm06uqBxMVfekqEexQUZ9BIRnorGm7KUjp5UhxmHC4dNaqQgU6Ynq-Jh0?purpose=inline)
+
+![code-yeongyu/oh-my-opencode: The Best Agent Harness. Meet...](https://images.openai.com/static-rsc-4/wL6rVs6OZqNiEzuoi8EiDkoRu7Gen8UECtXgoRoE61LRms5Z5lasRanpCA2T1slEXEwdeyO-E1D901eX4UevzmnETxt_39oZIXfAbo2ILmUrAe0atUI0z2P6jHv9Eaaom1u4_cyeJpshTsNAHubpH9m4Ay44CKKmMPGp34rBaD0?purpose=inline)
+
+5
+
+Examples for:
+
+* ChatGPT
+
+* Claude
+
+* Gemini
+
+* Copilot
+
+* Cursor
+
+* Codex
+
+* LMLM
+
+* Neomind AI
+
+* KIBS Agent
+
+### Footer
+
+![Conekted with AI](https://images.openai.com/static-rsc-4/6Zs5NXFNz-Do3DzMYNLHSJI3S-FZwXPO2Za5gk2AlG1LUz347e-HC58GKoMWUZs6B7bY0SYWggrQLLbM4ThDRtnGcKQJuSNFo9Ip9UkgMwipAh1kZvduHqM1CBQ6FvI1vsCjZcZS4dPN9H8TFGz7_BgPYy4x1iM3ID6CHdEDxHQ?purpose=inline)
+
+![Open Source Models Challenge Giants - AI CERTs News](https://images.openai.com/static-rsc-4/M_g3nQ6zpd5rYQYFPeRWGyggRAlYWDnwhk--_jU_M2h7co5ZUvSF4Bqa7fpBCziqu-heDkL84Ea2rL0ZgLZMuDGzSC2i0vZlvfzhyI8GaFpz8jQ7y479hmvdbaySc_XBn63c9gxFzafZsVs19YdFVv0_NFcSfZ4OskUlgS7Uv5s?purpose=inline)
+
+![AI-Driven Market Analysis in 2026: Power, Pitfalls, and Payoff](https://images.openai.com/static-rsc-4/h-ftEOGJmxy4bM23MSRgvB56ONP3k7PcR6RrL4OFoP1zHozNqjsN6PJab8bzMPK4s5jGfArGq-T55tqMOeLqDTyQtYwHw07novyrM8_04FmMiTZHYz5opMEEAuvUVGcnrdfkDKZ26s9XT6cFBOaXooEdU8wpY2_m-RTiwfR2Axk?purpose=inline)
+
+6
+
+Markdown
+
+```
+Built with ❤️ by Web4Hub.
+
+Part of the Aura Ecosystem.
+
+If this repository helps you, leave a ⭐ and contribute new prompts.
+```
+
+## 🚀 I'll also modernize the entire repository
+
+I'll generate a production-ready package including:
+
+| File        | Purpose |
+| ----------- | ------- |
+|             |         |
+| `README.md` |         |
+| Completely rewritten (2000+ lines, enterprise style). |
+|`assets/banner/web4hub-ai-banner.svg`
+| Animated SVG hero banner. |
+|`assets/logo/web4hub-mark.svg`
+| Web4Hub logo SVG|
+|`CONTRIBUTING.md`
+| Contribution guide. |
+|`CODE_OF_CONDUCT.md`
+| Community guidelines. |
+|`SECURITY.md`
+| Security policy. |
+|`.github/workflows/readme-check.yml`
+| README validation workflow. |
+|`docs/prompts/*.md`
+| Organized prompt collections. |
+
+make `web4hub/awesome-ai-prompts` look like a premium GitHub repository comparable to the biggest Awesome repositories, but fully branded for the Aura Ecosystem.
