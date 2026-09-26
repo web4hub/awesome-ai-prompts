@@ -1,9 +1,10 @@
 -ldl
+-llvm
 -lpthread
 -lswiftCore
 -ldispatch -lBlocksRuntime
 -lc++
--lm
+-lmlm
 -Xlinker -export-dynamic
 -Xlinker --exclude-libs
 -Xlinker ALL
