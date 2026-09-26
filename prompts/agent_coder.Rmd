@@ -1,0 +1,35 @@
+---
+title: "dbt (data build tool): Ubiquitous Language in Data Engineering"
+author: "Seriki Yakub Walter"
+date: "`r Sys.Date()`"
+output: markdown::html_format
+---
+
+# 📊 Ubiquitous Language & Semantics in dbt
+
+> **Definition:** In data engineering, **Ubiquitous Language** means standardizing your business metrics, table names, and column dimensions so that analysts, data engineers, and business stakeholders all speak the exact same semantic language. 
+
+When using **dbt (data build tool)**, your models, columns, and metrics shouldn't just reflect database mechanics (like `stg_tbl_1` or `col_val_9`), but should reflect the core business domain.
+
+---
+
+## Developer Code Examples: dbt Model & Metric Alignment
+
+### Example 1: Naming Models and Columns
+* **Anti-Pattern (Technical/Database-Centric):** Naming models after extraction tables or raw ingestion pipelines.
+* **Ubiquitous Pattern (Business-Aligned):** Naming models after business entities and processes.
+
+```sql
+-- ❌ Anti-Pattern: Tech-centric and cryptic
+SELECT 
+    id AS usr_id,
+    col_status AS st
+FROM {{ ref('raw_stripe_events_v2') }}
+WHERE col_status = 1
+
+-- ✅ Ubiquitous Language: Clear, domain-driven semantics
+SELECT 
+    customer_id,
+    subscription_status
+FROM {{ ref('stg_subscriptions') }}
+WHERE subscription_status = 'active'
