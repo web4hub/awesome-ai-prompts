@@ -85,7 +85,7 @@ Every prompt becomes executable metadata.
 
 Markdown
 
-```
+```md
 ---
 id: aura-ui-watch-0004
 
@@ -167,7 +167,7 @@ Pasted markdown.md
 
 TypeScript
 
-```
+```ts
 const prompt = await AuraPrompt.load("ui/luxury-watch");
 
 await prompt.execute({
@@ -211,7 +211,7 @@ Example DSL:
 
 scheme
 
-```
+```ts
 (prompt-search
     :query "three.js luxury watch shader"
     :semantic true
