@@ -6,8 +6,7 @@ The **Aura Prompt Specification** defines the standard schema and execution cont
 
 Every prompt file inside `prompts/` or `promptcards/` must start with a YAML frontmatter block:
 
-```yaml
----
+```yml
 id: "lmlm-code-gen-v1"
 name: "LMLM Multi-Language Code Generator"
 version: "1.0.0"
@@ -23,7 +22,7 @@ parameters:
 ```
 
 ### 3. Sample Prompt (`prompts/lmlm/code_generator.md`)
-```markdown
+```Rmd
 ---
 id: "lmlm-code-gen-v1"
 name: "LMLM Multi-Language Code Generator"
@@ -46,3 +45,4 @@ You are an expert AI software architect operating inside the LMLM (Local Multi-L
 - **Project**: `{{project_name}}`
 - **Requirements**: 
 {{requirements}}
+```
