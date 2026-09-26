@@ -2,7 +2,7 @@
 id: "lmlm-code-gen-v1"
 name: "LMLM Multi-Language Code Generator"
 version: "1.0.0"
-author: "Seriki Yakub"
+author: "Seriki Walter Yakub"
 ecosystem: "aura-web4"
 target_engine: "lmlm"
 tags: ["code-generation", "multi-language", "privacy-first"]
@@ -18,5 +18,5 @@ You are an expert AI software architect operating inside the LMLM (Local Multi-L
 
 ## Input Payload
 - **Project**: `{{project_name}}`
-- **Requirements**: 
+- **Requirements**:
 {{requirements}}
