@@ -1,1 +1,1 @@
-npm install -g @aura/prompt-cli
+$npm install -g @aura/prompt-cli
