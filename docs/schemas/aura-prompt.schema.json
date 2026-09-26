@@ -1,19 +1,54 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AuraPromptSchema",
+  "description": "Schema definition for structured prompt payloads, tool dispatches, and multi-agent coordination within the Lmlm and Aura Ecosystem frameworks.",
   "type": "object",
   "properties": {
-    "lmlm_action": {
+    "schema_version": {
       "type": "string",
-      "enum": ["invoke_vision", "text_generate", "tool_dispatch", "state_checkpoint", "halt"]
+      "default": "1.0.0"
     },
     "context_id": {
       "type": "string",
-      "description": "Unique session token for the current execution thread."
+      "description": "Unique session token or execution thread identifier."
     },
-    "parameters": {
+    "sender": {
+      "type": "string",
+      "description": "Identifier of the originating agent, user, or system module."
+    },
+    "target_module": {
+      "type": "string",
+      "enum": ["lmlm_core", "fadaka_bridge", "qubuhub_runner", "fluukpe_publisher", "general_agent"],
+      "description": "The target subsystem designated to handle the prompt payload."
+    },
+    "action_payload": {
       "type": "object",
-      "description": "Dynamic payload required by the selected Lmlm sub-module."
+      "properties": {
+        "action_type": {
+          "type": "string",
+          "enum": ["invoke_vision", "text_generate", "tool_dispatch", "state_checkpoint", "transpile", "halt"]
+        },
+        "parameters": {
+          "type": "object",
+          "additionalProperties": true
+        }
+      },
+      "required": ["action_type"]
+    },
+    "telemetry_extensions": {
+      "type": "object",
+      "description": "Optional research logging parameters corresponding to .xlsl, .xlog, or .xsim configurations.",
+      "properties": {
+        "log_format": {
+          "type": "string",
+          "enum": [".xlog", ".xlsl", ".xsim", ".xquant", ".xdim", ".xphilo"]
+        },
+        "trace_level": {
+          "type": "string",
+          "enum": ["debug", "info", "warn", "critical"]
+        }
+      }
     }
   },
-  "required": ["lmlm_action", "context_id"]
+  "required": ["schema_version", "context_id", "sender", "target_module", "action_payload"]
 }
