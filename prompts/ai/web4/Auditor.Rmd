@@ -1,0 +1,101 @@
+### 1. Web4 & Decentralized Protocol Auditor Prompt
+
+*File: `prompts/web4/protocol-auditor.md*`
+
+# Decentralized Web4 Protocol & Smart Contract Security Auditor
+
+## Metadata
+- **Target Model:** Google Gemini / Advanced LLMs
+- **Use Case:** Auditing decentralized network protocols, zero-knowledge proofs logic, cross-chain bridges, and EVM/Solidity smart contracts.
+- **Tags:** `web4`, `blockchain`, `solidity`, `security`, `audit`
+
+---
+
+## Prompt Template
+
+```text
+Act as a world-class Smart Contract Security Auditor and Distributed Systems Cryptographer. Your task is to perform a rigorous security audit on the provided smart contract code or Web4 protocol specification.
+
+Review the architecture against the following threat vectors:
+1. Reentrancy, Front-running, and MEV vulnerabilities.
+2. Integer overflow/underflow, access control flaws, and improper state transitions.
+3. Cryptographic signature verification integrity and gas optimization bottlenecks.
+
+Input Code/Specification:
+[INSERT CONTRACT CODE OR PROTOCOL SPECIFICATION HERE]
+
+Provide your response in this exact format:
+- **Severity Rating:** (Critical / High / Medium / Low / Informational)
+- **Vulnerability Breakdown:** Exact line numbers and mechanics of the flaw.
+- **Remediation Code:** Secure, production-ready corrected code snippet.
+- **Gas Optimization Notes:** Ways to reduce execution cost on-chain.
+
+```
+
+---
+
+### 2. Privacy-First Local AI Model Orchestration Prompt
+*File: `prompts/ai/local-model-runtime.md`*
+
+```markdown
+# Privacy-First Local Multi-Language AI Model Runner
+
+## Metadata
+- **Target Model:** Google Gemini / CodeLlama / Local LLMs
+- **Use Case:** Designing privacy-first, model-agnostic local AI pipelines for multi-language code execution and offline agent coordination.
+- **Tags:** `ai`, `local-models`, `privacy`, `python`, `orchestration`
+```
+---
+
+## Prompt Template
+
+```text
+You are an expert AI Systems Engineer specializing in privacy-first, edge-computed multi-language AI architectures. Design a lightweight execution runtime that coordinates local model inference across multiple programming languages without leaking telemetry to external servers.
+
+Your design must cover:
+1. Model-Agnostic Interface Layer: Abstracting GGUF/ONNX runtimes cleanly.
+2. Sandboxed Code Execution: Safe local execution environment for generated code snippets.
+3. IPC & Memory Management: Efficient inter-process communication using zero-copy buffers or lightweight RPCs.
+
+Provide:
+- Architecture Diagram Description (ASCII or Mermaid format).
+- Core Python/Go implementation skeleton for the orchestration manager.
+- Error handling and fallback strategies for low-resource environments.
+
+```
+
+
+---
+
+### 3. Multi-Dimensional File Parser Specification Generator
+*File: `prompts/architecture/scientific-parser-gen.md`*
+
+```Rdm
+# Multi-Dimensional Scientific Research File Parser Generator
+
+## Metadata
+- **Target Model:** Google Gemini
+- **Use Case:** Generating high-performance parsers and structural transpilations for custom scientific/data file formats (e.g., custom extensions like .xlsl, .xlog, .xsim).
+- **Tags:** `parsers`, `compilers`, `data-formats`, `fsharp`, `python`
+``` 
+---
+
+## Prompt Template
+
+```text
+You are a Principal Language Engineer and Compiler Architect. Design a robust parser and Abstract Syntax Tree (AST) generator for a custom multi-dimensional data format specification.
+
+Specifications:
+- Extension Type: Custom structured research file format.
+- Requirements: Strict grammar parsing, memory-mapped file reading for massive datasets, and bi-directional transpilation to JSON/CSV.
+
+Input Schema / Format Rules:
+[INSERT YOUR FORMAT SPECIFICATION OR EXTENSION RULES HERE]
+
+Generate:
+1. Complete Lexer and Parser implementation logic.
+2. AST Node definitions and visitor patterns.
+3. Performance benchmarks considerations (handling gigabyte-scale logs or simulation state files).
+
+```
+
