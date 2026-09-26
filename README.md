@@ -13,6 +13,16 @@ The repository treats prompts as versioned engineering artifacts: they should ha
 - `cli/` & `sdk/` — developer tooling when present.
 - `docs/` — specifications, guides, and architecture documentation.
 
+## Aura Ecosystem
+
+- 🌐 Web4Hub
+- 🤖 LMLM
+- 🧠 Neomind AI
+- ⚡ KIBS
+- 📚 APLCE
+- ⛓️ Fadaka Blockchain
+- ☁️ QUBUHUB Cloud
+
 ## ⚡ Quick Start
 
 ```bash
@@ -49,6 +59,7 @@ Run locally:
 
 ```bash
 python3 scripts/validate-prompts.py
+docs(readme): rebrand Awesome AI Prompts for Web4Hub & Aura Ecosystem
 ```
 
 The validator checks:
@@ -74,10 +85,32 @@ When adding a prompt:
 5. Run `python3 scripts/validate-prompts.py`.
 6. Keep prompt content focused, reusable, and auditable.
 
+## Contributing
+
+We welcome prompt engineers, AI researchers, developers,
+and Web4 contributors.
+
+1. Fork
+2. Create prompt
+3. Commit
+4. Pull Request
+   
 ## 📜 Specification
 
 - [Aura Prompt Specification](AURA_PROMPT_SPEC.md)
 - [APS-1.0 JSON Schema](schemas/aura-prompt.schema.json)
+
+# Built with ❤️ by Web4Hub.
+
+Part of the Aura Ecosystem.
+
+If this repository helps you, leave a ⭐ and contribute new prompts.
+# Web4Hub Awesome AI Prompts
+
+The largest curated collection of AI prompts for developers, creators,
+researchers, blockchain builders, autonomous agents, and Web4 applications.
+
+Maintained by Web4Hub — part of the Aura Ecosystem.
 
 ## License
 
