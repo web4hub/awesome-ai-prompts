@@ -24,7 +24,7 @@ A unified multilingual prompt ecosystem powering LMLM, GPT-5-mini, Web4 AI, KIBS
 
 # 🌌 Repository Architecture
 
-```^D
+```cmd
 awesome-ai-prompts/
 │
 ├── README.md
@@ -84,7 +84,7 @@ Every prompt becomes executable metadata.
 
 Markdown
 
-```
+```md
 ---
 id: aura-ui-watch-0004
 
