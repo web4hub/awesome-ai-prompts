@@ -1,7 +1,7 @@
 # Awesome AI Prompts [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-  
-The prompt engineering world has split into two camps:
 
+The prompt engineering world has split into two camps:
+>>
 - **Camp 1 — Prompt templates**: collect system prompts, share copy-paste recipes, curate persona prompts. Useful, but limited.
 - **Camp 2 — Prompt as engineering**: compile LM programs (DSPy), test and regress prompts (promptfoo), control generation structurally (Guidance), optimize prompts automatically (TextGrad, GEPA). This is where the long-term value is.
 
@@ -9,7 +9,8 @@ The prompt engineering world has split into two camps:
 
 ## Table of Contents
 
-- [📋 Prompts](#prompts) — copy-paste ready
+- [📋 Prompts](#prompts)
+  — [copy-paste ready](@ai^↑Dexecute)
   - [Coding & Development](#coding--development)
   - [DevOps & SRE](#devops--sre)
   - [Data Engineering](#data-engineering)
