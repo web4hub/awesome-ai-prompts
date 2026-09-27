@@ -5,7 +5,7 @@ title: AGENTS
 metadata_id: "lmlm-code-gen-v1"
 name: "LMLM Multi-Language Code Generator"
 version: "1.0.0"
-author: "Seriki Yakub <qubuhub@googlemanagers.com>"
+author: "Seriki Yakub <web4@qubuhub.com>"
 ecosystem: "aura-web4"
 target_engine: "lmlm"
 tags: 
