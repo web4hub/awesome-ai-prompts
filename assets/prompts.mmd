@@ -1,0 +1,23 @@
+graph TD
+
+    subgraph Repository Core ["GitHub Repository: web4hub/awesome-ai-prompts"]
+        A[Markdown Prompt Artifacts] -->|YAML Frontmatter| B[APS-1.0 Schema Engine]
+        B --> C[CI/CD GitHub Actions Validation]
+        C -->|Pass / Fail| D[Build Registry Artifacts]
+    end
+
+    subgraph Runtime & Execution Layer ["Web4 Node & LMLM Runtime"]
+        D -->|JSON Compilation| E[Local LMLM Runtime Engine]
+        E -->|CUDA Kernel Acceleration| F[Multi-Language Model Adapters]
+        E -->|Context Injection| G[Agent Orchestration Loop]
+    end
+
+    subgraph Target Infrastructure ["Web4 Ecosystem (`web4.si`)"]
+        G --> H[Decentralized Node Dispatch]
+        H --> I[Smart Contract Verification]
+        H --> J[Zero-Trust Secure Vaults]
+    end
+    style Repository Core fill:#1e1e2e,stroke:#cba6f7,stroke-width:2px,color:#cdd6f4
+    style Runtime & Execution Layer fill:#181825,stroke:#89b4fa,stroke-width:2px,color:#cdd6f4
+    style Target Infrastructure fill:#11111b,stroke:#a6e3a1,stroke-width:2px,color:#cdd6f4
+    ---

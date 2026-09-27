@@ -1,0 +1,7 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "prompts/lmlm/code_generator.md": "41365506e226612af15b82385c1e1a9b7f79bce25294a3c3a17afcd407d84c9d",
+    "prompts/promptcard.md": "5576e65e29644aede7f4fc107dbb3e3de7c85565f6ac2cec829843c2b2088eb4"
+  }
+}

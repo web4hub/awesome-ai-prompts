@@ -1,10 +1,13 @@
 {
   "name": "@web4hub/awesome-ai-prompts",
   "private": true,
-  "version": "0.1.0",
-  "description": "Production-oriented prompt engineering resources for Web4, LMLM, and AI workflows.",
+  "version": "0.2.0",
+  "description": "Production-oriented prompt engineering resources and runtime tooling.",
   "scripts": {
-    "validate": "python3 scripts/validate-prompts.py"
+    "validate": "python3 scripts/validate-repository.py",
+    "index": "python3 scripts/build-prompt-index.py",
+    "check-index": "python3 scripts/build-prompt-index.py --check",
+    "test": "python3 -m unittest discover -s tests -p 'test_*.py'"
   },
   "engines": {
     "node": ">=20"

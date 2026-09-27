@@ -21,5 +21,11 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Validate APS-1.0 prompt metadata
-        run: python3 scripts/validate-prompts.py
+      - name: Validate repository
+        run: python3 scripts/validate-repository.py
+
+      - name: Verify generated registry
+        run: python3 scripts/build-prompt-index.py --check
+
+      - name: Run tests
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
