@@ -2,7 +2,7 @@
 id: "sys-arch-expert"
 name: "Principal Systems Architecture Directive"
 version: "1.0.1-alpha"
-ecosystem: "web4.0"
+ecosystem: "https://web4.si"
 target_engine: "lmlm-runtime"
 tags:
   - "systems-engineering"
