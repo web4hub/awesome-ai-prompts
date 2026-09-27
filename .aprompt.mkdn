@@ -1,11 +1,11 @@
 ---
 id: LMLM
-title: AGENTS
+title: AGENTSPROMPTCARD
 
 metadata_id: "lmlm-code-gen-v1"
 name: "LMLM Multi-Language Code Generator"
 version: "1.0.0"
-author: "Seriki Yakub <qubuhub@googlemanagers.com>"
+author: "Seriki Yakub <qubuhub@googlemanagers.com><web4@qubuhub.com>"
 ecosystem: "aura-web4"
 target_engine: "lmlm"
 tags: 
@@ -74,6 +74,10 @@ engine:
   - web4.studio
   - workflowsAI
   - windowai
+  - fastai
+  - fastlmlm
+  - Fastllm
+  - gptchatly
 
     
 category:
@@ -84,6 +88,18 @@ category:
   - LIBSVM
   - TensorRT-LLM
   - vLLM
+  - cue
+  - g4
+  - fastapi
+  - fastht.ml
+  - cuda
+  - conda
+  - crc
+  - xbase
+  - q
+  - apex
+  - apl
+  - 
 
 difficulty: advanced
 
@@ -92,6 +108,8 @@ frameworks:
   - Three.js
   - GLSL
   - React Three Fiber
+  - nextn
+  - nf
 
 languages:
   - en
