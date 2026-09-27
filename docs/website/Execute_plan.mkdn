@@ -1,3 +1,16 @@
+<p align="center">
+  <img src="./assets/banner/web4hub-ai-banner.svg" width="100%" alt="Web4Hub Awesome AI Prompts"/>
+</p>
+
+<h1 align="center">
+⚡ Web4Hub • Awesome AI Prompts
+</h1>
+
+<p align="center">
+The Ultimate Curated Collection of AI Prompts for Developers, Researchers,
+Creators, Autonomous Agents, Blockchain, and Web4 Applications.
+</p>
+
 ## Execution Plan (Web4Hub Edition)
 
 Replace every repository/account reference with `web4hub/awesome-ai-prompts`
@@ -19,6 +32,17 @@ Organize prompt collections into folders
 # New Repository Structure
 
 ```bash
+@llama
+@lamis
+@qwicklmlm
+@chatgpt
+@codexlmlm
+@codex
+@claude
+@cursor
+git push -u origin codex/aps-validation-foundation
+git pull origin codex/aps-validation-foundation
+git merge main
 awesome-ai-prompts/
 ├── README.md                    ⭐ Complete Web4Hub README
 ├── LICENSE
@@ -77,22 +101,9 @@ awesome-ai-prompts/
 ![Global Investment Summit — Shaping the Future of Global Capital · GIS](https://images.openai.com/static-rsc-4/Zj-8tXspX_pvA_tHdiS00-SiLWcOeLi_8xBqrC-l5ku2uC4kgz2pBBXeHwjw_prABUkbU4YOdeKpZBvXssz-zJQM9SlRvBp_0md7RIlG3ARj52PtYS8dJyM3Nf13JZTGo2AT2HAlTqh_PKQ835wH4JcHADNEBR5vhayUwtwBbgc?purpose=inline)
 
 ![Understanding Neural Networks: The Heart of Artificial Intelligence | by Hamza Ahmed | Medium](https://images.openai.com/static-rsc-4/YW2MB42r68BOydjnqMQHexEyW9TyNklXEnEk-lAVqcQePxiFIw8NhVGa82bUcgFXvJvPd1B8bRyryWwglRW1bpaOT7xXRQbcoC81JhOoStb4SdwGgdOGH1ix8AAiFzfIlCFcpHQSKJTbNLuFmwrafe54m9qs7cyDOnUt5gt0rkI?purpose=inline)
-
-6
-
-The new README starts with:
-
-Markdown
-
-```Md
-<p align="center">
-  <img src="./assets/banner/web4hub-ai-banner.svg" width="100%" alt="Web4Hub Awesome AI Prompts"/>
-</p>
-
 <h1 align="center">
 ⚡ Web4Hub • Awesome AI Prompts
 </h1>
-
 <p align="center">
 The Ultimate Curated Collection of AI Prompts for Developers, Researchers,
 Creators, Autonomous Agents, Blockchain, and Web4 Applications.
@@ -107,7 +118,7 @@ Creators, Autonomous Agents, Blockchain, and Web4 Applications.
 
 ![OpenAI GPT Chatbot: Redefining the Future of Intelligent Interaction](https://images.openai.com/static-rsc-4/islnlPnAHRHRCApeZCXQ55oWDTWhRTV9kIWU_2A761ttY6C9LEfDzBSpRaD7SSoNKQS4MwqUfGrv24g9NQBFNbi9rZe7arnHwdM3fME07rXpnVRWSHI-wrCkuo49Cs8zjvLsvh3VO81xfSAM-wJEW3hy_rJk2-fnK0oI3LNBeYc?purpose=inline)
 
-6
+[6]
 
 `assets/banner/web4hub-ai-banner.svg`
 
@@ -153,7 +164,7 @@ Features:
 
 ![AI Operating System — Self-Hosted Autonomous Agent Software](https://images.openai.com/static-rsc-4/6aTan8SBcRNcMIYZSLsEtNPUHM2HftA9ENCykOEzuexjJxXkiNGooraO_2GLVMOrspA15tjC6A0kdJ4vA0jQceHNnY8UeagyAbpCpidXMzQsDK46ZvT4ac7MPinj7G2pBZu5vYlnEL8E1vwNGIJmZIfDZ4B7dVBQiVLw9rx-hhA?purpose=inline)
 
-6
+6b
 
 The README now includes a dedicated ecosystem section linking:
 
@@ -199,7 +210,7 @@ The README includes animated Mermaid diagrams.
 
 6
 
-Example:
+.. Example:
 
 Diagram options
 
@@ -271,7 +282,7 @@ A 1280×640 Open Graph banner is added for GitHub sharing.
 
 JSON
 
-```jq
+```json
 {
   "name": "Web4Hub Awesome AI Prompts",
   "organization": "web4hub",
@@ -341,7 +352,7 @@ This will become an enterprise-quality GitHub README.
 
 A custom animated SVG banner named:
 
-```
+```cmd
 assets/banner/web4hub-ai-banner.svg
 ```
 
@@ -373,7 +384,7 @@ README badges for stars, forks, license, contributors, and prompt collections.
 
 Markdown
 
-```
+```Rmd
 # Web4Hub Awesome AI Prompts
 
 The largest curated collection of AI prompts for developers, creators,
@@ -403,7 +414,16 @@ Maintained by Web4Hub — part of the Aura Ecosystem.
 
 5
 
-```
+```bash
+@llama
+@lamis
+@qwicklmlm
+@chatgpt
+@codexlmlm
+@codex
+@claude
+@cursor
+_execute
 awesome-ai-prompts/
 ├── chatgpt/
 ├── claude/
@@ -433,19 +453,15 @@ awesome-ai-prompts/
 
 ### Beautiful Contribution Graph
 
-![My GitHub in 4 years 💙
+![My GitHub in 4 years ](https://images.openai.com/static-rsc-4/31zs2rdqt-bxxqK8U-MU0IhIuKnMAbfzfzZN-A1huoFceN7ZbMHxD2DcdxFCgA317f6yFwC7IWXjAKOFOUUxWoVIKu4Hvoza87P-fGF4wKr-kMrbi0P5-slXfAHw7rjuxlm7dHX4eV4lKGU2uPLuRq4FS1lF-S8YBDrnAMU5FBk?purpose=inline))
 
-* [https://github.com/ln-dev7](https://github.com/ln-dev7) | Leonel N.]([https://images.openai.com/static-rsc-4/31zs2rdqt-bxxqK8U-MU0IhIuKnMAbfzfzZN-A1huoFceN7ZbMHxD2DcdxFCgA317f6yFwC7IWXjAKOFOUUxWoVIKu4Hvoza87P-fGF4wKr-kMrbi0P5-slXfAHw7rjuxlm7dHX4eV4lKGU2uPLuRq4FS1lF-S8YBDrnAMU5FBk?purpose=inline](https://images.openai.com/static-rsc-4/31zs2rdqt-bxxqK8U-MU0IhIuKnMAbfzfzZN-A1huoFceN7ZbMHxD2DcdxFCgA317f6yFwC7IWXjAKOFOUUxWoVIKu4Hvoza87P-fGF4wKr-kMrbi0P5-slXfAHw7rjuxlm7dHX4eV4lKGU2uPLuRq4FS1lF-S8YBDrnAMU5FBk?purpose=inline))
 
-![Master Git Branch Management: The Ultimate Guide for Solo Developers & Teams of Any Size | by Ayush Kejariwal | Medium](https://images.openai.com/static-rsc-4/IoLUXvVvXiVqcNrftVaMGPm99JhN52iGYEdoxuK5k6y4KWjMSS3UWIQtXSB_BRsgpHDqIKiLg6FBSAHJHQ4ojqoYuoNgIe09ggkp7vXF1vKUiMnLi0ZktEkraXmGSOQW8uo4isCcxfwTQR-ayeLpmrTy0neAwEsF_BrWr1jxW7o?purpose=inline)
-
-![Molecular Assemblers: Building Atom by Atom | by Anik Hassan | Medium](https://images.openai.com/static-rsc-4/nDp5WgcjevWqof-i6HCDeX26xqVJeLQWUDHTEhxspDsyJAPLHKP1bWInt80QdYfwIAhyrN6eatQyd5ME_moX8jOa8AOaPjfUaI7hVf6r6YzE13jE2hn2O3Nfm4E1r5UdjTXM43gLBZHw4pCrWI1LOXUwv31IIZ7z8ak3YFyM0cQ?purpose=inline)
 
 6
 
 Markdown
 
-```
+```md
 ## Contributing
 
 We welcome prompt engineers, AI researchers, developers,
@@ -461,7 +477,7 @@ and Web4 contributors.
 
 Markdown
 
-```
+```mkdn
 ## Aura Ecosystem
 
 - 🌐 Web4Hub
@@ -553,16 +569,7 @@ I'll generate a production-ready package including:
 make `web4hub/awesome-ai-prompts` look like a premium GitHub repository comparable to the biggest Awesome repositories, but fully branded for the Aura Ecosystem.
 Done! 🚀 I replaced the repository/account references throughout the Markdown file.
 
-### What I changed
-
-* Replaced every occurrence of:
-
-  * `https://github.com/ai-boost/awesome-prompts`
-
-  * `github.com/ai-boost/awesome-prompts`
-
-  * `ai-boost/awesome-prompts`
-* With:
+### What changed
 
   * `https://github.com/web4hub/awesome-ai-prompts`
 
