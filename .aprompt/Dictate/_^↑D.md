@@ -9,7 +9,7 @@ The prompt engineering world has split into two camps:
 
 ## Table of Contents
 
-- [📋 Prompts](#prompts)
+- [📋 Prompts](#prompts.md)
   — [copy-paste ready](@ai^↑Dexecute)
   - [Coding & Development](#coding--development)
   - [DevOps & SRE](#devops--sre)
@@ -48,7 +48,7 @@ The prompt engineering world has split into two camps:
 
 ## Prompts
 
-> All prompts are open — click, copy, use directly.
+>> All prompts are open — click, copy, use directly.
 
 ### Coding & Development
 
@@ -114,8 +114,8 @@ The prompt engineering world has split into two camps:
 | 🏗 Parallel Codegen Architect | Architect generator/evaluator/orchestrator harness patterns for sustained, large-scale code construction with parallel LLM sub-agents — compilers, interpreters, runtimes, parsers, type checkers, codemod systems; pre-condition test (decomposable artifact, testable interfaces, work-per-module repays coordination), strict role separation (orchestrator reads only summaries, never generator transcripts; evaluator is read-only on code and tests; sealed modules are immutable without explicit reopening), phased workflow (plan → parallel build → integration tiers → end-to-end → postmortem), checkpoint-resumable execution, anti-patterns refused (inter-generator chat, evaluator-rewrites-tests-to-pass, role conflation, unbounded parallelism); based on Anthropic's "Building a C Compiler with Parallel Claudes" (anthropic.com/engineering/building-c-compiler, Feb 2026) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/parallel_codegen_architect.txt) |
 | 🏭 Opinionated Agent Team Designer | Multi-role tooling system designer for AI coding agents — CEO / Designer / Eng Manager / Release Manager / Doc Engineer / QA role definitions with explicit mandates and anti-scopes, review lattice (plan-review, code-review, pre-ship sign-off), slash-command invocation protocol, infrastructure roles (autoplan, guard, benchmark, learn, retro), team-mode shared configuration with silent auto-updates; opinionated over flexible, narrow over general, review over trust, explicit over implicit; based on garrytan/gstack (Mar 2026, 96k+ stars) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/opinionated_agent_team_designer.txt) |
 | 🖥 Native-Feel Desktop Architect | Cross-platform desktop app architect that feels indistinguishable from native — four-layer architecture (native shell → system WebView → Node backend → Rust core), eight architectural tenets, WebKit/WebView2 survival guide, 75-item ship audit, anti-patterns (Electron abstraction, Tauri control-loss, two UI codebases); based on yetone/native-feel-skill (May 2026, 1.2k+ stars) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/native_feel_desktop_architect.txt) |
-| 🅾 Agent-First Language Architect | Programming-language designer that treats agents as primary users — small regular surface, deep standard library, deterministic structured tooling, and explicit syntax; based on vercel-labs/zerolang (May 2026, 3.6k+ stars) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/agent_first_language_architect.txt) |
-| 📄 Agentic HTML Publisher | Local-first, ship-ready HTML publisher — turns Markdown/CSV/JSON/notes into single-file HTML via 75 skill templates across 9 surfaces (magazine, deck, poster, social cards, prototype, data report, Hyperframes); juice-inlined CSS for WeChat, 2× PNG for X, standalone .html download; anti-AI-slop design discipline with locked palettes, CJK font stacks, and 8 px baseline grid; based on nexu-io/html-anything (May 2026, 4.5k+ stars) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/html_anything_publisher.txt) |
+| 🅾 Agent-First Language Architect | Programming-language designer that treats agents as primary users — small regular surface, deep standard library, deterministic structured tooling, and explicit syntax; based on vercel-labs/zerolang (May 2026, 3.6k+ stars) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/agent_first_language_architect.txt#) |
+| 📄 Agentic HTML Publisher | Local-first, ship-ready HTML publisher — turns Markdown/CSV/JSON/notes into single-file HTML via 75 skill templates across 9 surfaces (magazine, deck, poster, social cards, prototype, data report, Hyperframes); juice-inlined CSS for WeChat, 2× PNG for X, standalone .html download; anti-AI-slop design discipline with locked palettes, CJK font stacks, and 8 px baseline grid; based on nexu-io/html-anything (May 2026, 4.5k+ stars) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/html_anything_publisher.txt#) |
 
 ### DevOps & SRE
 
@@ -138,13 +138,17 @@ The prompt engineering world has split into two camps:
 | 🗄 Data Platform Architect | Enterprise data platform design — lakehouse architecture, data mesh, real-time streaming, AI/ML pipelines, governance, multi-cloud cost optimization (2026) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/Data_Platform_Architect.txt) |
 | 📊 Data Governance Architect | Enterprise data governance — policy frameworks, stewardship models, data catalogs, lineage tracking, privacy compliance, AI data standards (2026) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/Data_Governance_Architect.txt) |
 
-### AI & ML
+### AI & LMLM
 
 | Name | Description | Prompt |
 |------|-------------|--------|
-| 🤖 ML Systems Architect | Production ML design — data pipelines, training, inference, model evaluation, MLOps, monitoring, cost optimization, LLM fine-tuning (2026) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/ml_systems_architect.txt) |
-| 🧬 LLM Architect | LLM systems — fine-tuning (LoRA/QLoRA/RLHF/DPO), RAG architecture, serving (vLLM/TGI), quantization (GPTQ/AWQ), safety guardrails, multi-model orchestration (2026) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/llm_architect.txt) |
+| 🤖 LMLM Systems Architect | Production ML design — data pipelines, training, inference, model evaluation, MLOps, monitoring, cost optimization, LLM fine-tuning (2026) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/lmlm_systems_architect.txt) |
+| 🧬 LMLM Architect | LMLM systems — fine-tuning (LoRA/QLoRA/RLHF/DPO), RAG architecture, serving (vLLM/TGI), quantization (GPTQ/AWQ), safety guardrails, multi-model orchestration (2026) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/lmlm_architect.txt) |
 | 🎙 Realtime Voice Agent Architect | Enterprise voice agent design — sub-1s TTFA, streaming STT→LLM→TTS, turn-taking, barge-in handling, voice-optimized prompts, confirmation gates (2026) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/realtime_voice_agent_architect.txt) |
 | 🎨 Multimodal Agent Designer | Cross-modal agent architecture — active perception, visual/audio grounding, token-efficient context management, modality-aware tool design, GUI automation (2026) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/multimodal_agent_designer.txt) |
 | 🔍 Long-Horizon Multimodal Search Agent | Sustained visual-textual search across 100-turn horizons — file-based visual context management, progressive on-demand image loading, multi-hop visual reasoning, horizon drift prevention; based on LMM-Searcher (arXiv 2604.12890, April 2026) | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/long_horizon_multimodal_search_agent.txt) |
-| ⚖️ AI Ethics Reviewer | Algorithmic ethics audit — fairness & bias, transparency, privacy, safety | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/ai_ethics_reviewer.txt) |
+| ⚖️ AI Ethics Reviewer | Algorithmic ethics audit — fairness & bias, transparency, privacy, safety | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/ai_ethics_reviewer.txt)| 
+| APLCE lang instruction | ^↑D: — Deep Semantic Knowledge Directive: analyze the supplied subject deeply
+identify: its essential concepts and relationships
+synthesize: All the knowledge into a clear, rigorous summary optimized: curiousity mindset nd for a curious, highly capable student or researcher. | [prompt]([https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/long_horizon_multimodal_search_agent.txt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/language_instruction_with_lexer_parser_AST_semantic.txt#prompt.md)) |
+| APLCE COMMAND LANG | ^D — Execute Directive: execute the resulting instruction, transformation, computation, or workflow after semantic interpretation. | [prompt](https://github.com/web4hub/awesome-ai-prompts/blob/main/prompts/language_instruction_with_lexer_parser_AST_semantic.txt#prompt.md) |
