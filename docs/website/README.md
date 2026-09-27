@@ -31,7 +31,7 @@ Organize prompt collections into folders
 
 # New Repository Structure
 
-```bash
+```cmd
 @llama
 @lamis
 @qwicklmlm
